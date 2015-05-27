@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcut-redirections>
+
+    <item
+        className="com.android.dialer.DialtactsActivity"
+        icon="@mipmap/ic_launcher_dialer"
+        packageName="com.android.dialer" />
+    <item
+        className="com.android.email.activity.Welcome"
+        icon="@mipmap/ic_launcher_mail"
+        packageName="com.android.email" />
+    <item
+        className="com.android.mms.ui.BootActivity"
+        icon="@mipmap/ic_launcher_mms"
+        packageName="com.android.mms" />
+    <item
+        className="com.android.calculator2.Calculator"
+        icon="@mipmap/ic_launcher_calculator"
+        packageName="com.android.calculator2" />
+    <item
+        className="com.android.contacts.activities.PeopleActivity"
+        icon="@mipmap/ic_launcher_contact"
+        packageName="com.android.contacts" />
+    <item
+        className="com.android.soundrecorder.SoundRecorder"
+        icon="@mipmap/ic_launcher_recorder"
+        packageName="com.android.soundrecorder" />
+    <item
+        className="com.android.calendar.AllInOneActivity"
+        icon="@mipmap/ic_launcher_calendar"
+        packageName="com.android.calendar" />
+    <item
+        className="com.android.settings.Settings"
+        icon="@mipmap/ic_launcher_settings"
+        packageName="com.android.settings" />
+    <item
+        className="com.android.deskclock.DeskClock"
+        icon="@mipmap/ic_launcher_alarmclock"
+        packageName="com.android.deskclock" />
+    <item
+        className="com.android.gallery3d.app.GalleryActivity"
+        icon="@mipmap/ic_launcher_gallery"
+        packageName="com.android.gallery3d" />
+    <item
+        className="com.mediatek.filemanager.FileManagerOperationActivity"
+        icon="@mipmap/ic_launcher_filemanager"
+        packageName="com.mediatek.filemanager" />
+    <item
+        className="com.android.providers.downloads.ui.DownloadList"
+        icon="@mipmap/ic_launcher_download"
+        packageName="com.android.providers.downloads.ui" />
+    <item
+        className="com.android.camera.CameraLauncher"
+        icon="@mipmap/ic_launcher_camera"
+        packageName="com.android.gallery3d" />
+    <item
+        className="com.UCMobile.main.UCMobile"
+        icon="@mipmap/ic_launcher_chrome"
+        packageName="com.UCMobile" />
+    <item
+        className="com.youdao.note.activity2.SplashActivity"
+        icon="@mipmap/ic_launcher_youdaonote"
+        packageName="com.youdao.note" />
+    <item
+        className="com.mediatek.todos.TodosActivity"
+        icon="@mipmap/ic_launcher_todos"
+        packageName="com.mediatek.todos" />
+    <item
+        className="com.kugou.android.app.splash.SplashActivity"
+        icon="@mipmap/ic_launcher_kugou"
+        packageName="com.kugou.android" />
+    <item
+        className="com.wandoujia.p4.activity.ExploreActivity"
+        icon="@mipmap/ic_launcher_wandoujia"
+        packageName="com.wandoujia.phoenix2" />
+    <item
+        className="com.tencent.mm.ui.LauncherUI"
+        icon="@mipmap/ic_launcher_wechat"
+        packageName="com.tencent.mm" />
+    <item
+        className="com.android.stk.StkLauncherActivity"
+        icon="@mipmap/ic_launcher_stk"
+        packageName="com.android.stk" />
+    <item
+        className="com.autonavi.minimap.Splashy"
+        icon="@mipmap/ic_launcher_navimap"
+        packageName="com.autonavi.minimap" />
+    <item
+        className="com.chaozh.iReader.ui.activity.WelcomeActivity"
+        icon="@mipmap/ic_launcher_ireader"
+        packageName="com.chaozh.iReaderFree" />
+    <item
+        className="com.storm.smart.LogoActivity"
+        icon="@mipmap/ic_launcher_storm"
+        packageName="com.storm.smart" />
+    <item
+        className="com.sina.weibo.SplashActivity"
+        icon="@mipmap/ic_launcher_weibo"
+        packageName="com.sina.weibo" />
+    <item
+        className="com.youdao.dict.activity.DictSplashActivity"
+        icon="@mipmap/ic_launcher_youdaodict"
+        packageName="com.youdao.dict" />
+    <item
+        className="cn.wps.moffice.documentmanager.PreStartActivity"
+        icon="@mipmap/ic_launcher_wpsoffice"
+        packageName="cn.wps.moffice_eng" />
+    <item
+        className="com.Qunar.NoteActivity"
+        icon="@mipmap/ic_launcher_qunar"
+        packageName="com.Qunar" />
+    <item
+        className="com.dianping.v1.SplashScreenActivity"
+        icon="@mipmap/ic_launcher_dianping"
+        packageName="com.dianping.v1" />
+    <item
+        className="com.moji.mjweather.CSplashScreen"
+        icon="@mipmap/ic_launcher_mjweather"
+        packageName="com.moji.mjweather" />
+    <item
+        className="com.android.quicksearchbox.SearchActivity"
+        icon="@mipmap/ic_launcher_search"
+        packageName="com.android.quicksearchbox" />
+<!--
+    <item
+        className="com.autonavi.xmgd.navigator.Warn"
+        icon="@mipmap/ic_launcher_autonavi"
+        packageName="com.autonavi.xmgd.navigator" />
+-->
+    <item
+        className="com.baidu.input.ImeMainConfigActivity"
+        icon="@mipmap/ic_launcher_baiduinput"
+        packageName="com.baidu.input" />
+    <item
+        className="com.eg.android.AlipayGphone.AlipayLogin"
+        icon="@mipmap/ic_launcher_alipay"
+        packageName="com.eg.android.AlipayGphone" />
+    <item
+        className="com.tenpay.android.StartActivity"
+        icon="@mipmap/ic_launcher_tenpay"
+        packageName="com.tenpay.android" />
+    <item
+        className="com.hexin.plat.android.AndroidLogoActivity"
+        icon="@mipmap/ic_launcher_hexin"
+        packageName="com.hexin.plat.android" />
+
+</shortcut-redirections>

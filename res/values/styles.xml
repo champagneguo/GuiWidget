@@ -1,0 +1,284 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     
+	
+      <style name="mydialog" parent="@android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@null</item>
+      </style>
+      <!-- 
+      <style name="popstyle" parent="@android:style/Widget.PopupWindow">
+         <item name="android:windowFrame">@null</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowIsTranslucent">true</item>  
+        <item name="android:windowNoTitle">true</item>  
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:padding">0dip</item>
+         
+      </style>
+      
+       -->
+    <!-- Long string feature for ImageSwitch -->  
+    <style name="NT_ImageSwitch" parent="@*android:style/Widget.Holo.Light.CompoundButton.Switch">
+        <item name="android:switchMinWidth">43.33333dip</item>
+        <item name="android:switchPadding">0dip</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:thumbTextPadding">0dp</item>
+        <item name="android:thumb">@drawable/nt_imageswitch</item>
+        <item name="android:track">@drawable/nt_switch_track_holo_light</item>
+    </style>
+
+    <style name="NT_ListViewStyle" parent="@android:style/Widget.Holo.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@color/nt_list_bg_color</item>
+        <item name="android:fadingEdge">none</item>
+        <!--item name="android:springMode">false</item-->
+        <!--item name="android:overscrollDistance">0</item-->
+        <!--item name="android:overflingDistance">0</item-->
+    </style>
+
+    <style name="NT_ListViewSpringStyle" parent="@style/NT_ListViewStyle">
+        <!--item name="android:springMode">true</item-->
+        <!--item name="android:overscrollDistance">240</item-->
+        <!--item name="android:overflingDistance">240</item-->
+    </style>
+
+    <style name="NT_ListSeparatorTextViewStyle" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:background">@drawable/nt_list_section_divider_holo_custom</item>
+        <item name="android:textColor">@color/nt_list_head_color</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="NT_PreferenceScreenStyle" parent="@*android:style/Preference.PreferenceScreen">
+        <item name="android:layout">@layout/nt_preference</item>
+    </style>
+
+    <style name="NT_CheckBoxPreferenceScreenStyle" parent="@*android:style/Preference.CheckBoxPreference">
+        <item name="android:layout">@layout/nt_checkboxpreference</item>
+        <item name="android:widgetLayout">@layout/nt_preference_widget_checkbox</item>
+    </style>
+
+    <style name="NT_DialogPreferenceStyle" parent="@*android:style/Preference.DialogPreference">
+        <item name="android:layout">@layout/nt_preference</item>
+        <!-- <item name="android:dialogLayout">@null</item> -->
+    </style>
+
+    <style name="NT_AlertDialogStyle" parent="@*android:style/AlertDialog.Holo.Light">
+        <item name="android:fullDark">@color/nt_popupwindow_bg_color</item>
+        <item name="android:topDark">@color/nt_popupwindow_bg_color</item>
+        <item name="android:centerDark">@color/nt_popupwindow_bg_color</item>
+        <item name="android:bottomDark">@color/nt_popupwindow_bg_color</item>
+        <item name="android:fullBright">@color/nt_popupwindow_bg_color</item>
+        <item name="android:topBright">@color/nt_popupwindow_bg_color</item>
+        <item name="android:centerBright">@color/nt_popupwindow_bg_color</item>
+        <item name="android:bottomBright">@color/nt_popupwindow_bg_color</item>
+        <item name="android:bottomMedium">@color/nt_popupwindow_bg_color</item>
+        <item name="android:centerMedium">@color/nt_popupwindow_bg_color</item>
+        <item name="android:layout">@layout/nt_alert_dialog_holo</item>
+    </style>
+
+    <style name="NT_LightButtonStyle" parent="@*android:style/Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@drawable/nt_btn_bg_single_light</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:textColor">@color/nt_text_primary_color</item>
+        <item name="android:textSize">@dimen/nt_primary_normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NT_LightButtonStartStyle" parent="@*android:style/Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@drawable/nt_popup_btn_first_light</item>
+        <item name="android:textColor">@color/nt_text_primary_color</item>
+        <item name="android:textSize">@dimen/nt_primary_normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NT_LightButtonMidStyle" parent="@*android:style/Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@drawable/nt_popup_btn_mid_light</item>
+        <item name="android:textColor">@color/nt_text_primary_color</item>
+        <item name="android:textSize">@dimen/nt_primary_normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NT_LightButtonEndStyle" parent="@*android:style/Widget.Holo.Light.Button.Borderless">
+        <item name="android:background">@drawable/nt_popup_btn_last_light</item>
+        <item name="android:textColor">@color/nt_text_primary_color</item>
+        <item name="android:textSize">@dimen/nt_primary_normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NT_PopupDialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/nt_popupmenu_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/nt_popupmenu_dismiss_anim</item>
+    </style>
+
+    <style name="NT_PopupWindowStyle" parent="@android:style/Widget.Holo.PopupWindow">
+        <!-- <item name="android:popupAnimationStyle">@style/NT_PopupDialogAnimationStyle</item> -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="NT_ActivityAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_right_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_left_out</item>
+    </style>
+
+    <style name="NT_SeekBarStyle" parent="@android:style/Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/nt_light_seekbar_progress_bg</item>
+        <item name="android:indeterminateDrawable">@drawable/nt_light_seekbar_progress_bg</item>
+        <item name="android:thumb">@drawable/nt_light_seekbar_thumb</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:minHeight">2dip</item>
+    </style>
+
+    <style name="NT_ProgressBarStyle" parent="@android:style/Widget.Holo.Light.ProgressBar">
+    	   <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/nt_light_seekbar_progress_bg</item>
+        <item name="android:indeterminateDrawable">@drawable/nt_light_seekbar_progress_bg</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:minHeight">2dip</item>
+    </style>
+
+    <style name="NT_SpinnerDropDown" parent="@*android:style/Widget.Holo.Light.Spinner.DropDown">
+        <item name="android:background">@drawable/nt_spinner_dropdown_background</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <style name="NT_TextAppearancetyle" parent="@*android:style/TextAppearance.Holo.Light">
+        <item name="android:textSize">@dimen/nt_title_medium</item>
+    </style>
+    <style name="NT_TextAppearancetyle.Medium">
+        <item name="android:textSize">@dimen/nt_title_medium</item>
+    </style>
+    <style name="NT_TextAppearancetyle.Large">
+        <item name="android:textSize">@dimen/nt_title_title</item>
+    </style>
+    <style name="NT_TextAppearancetyle.Small">
+        <item name="android:textSize">@dimen/nt_title_tiny</item>
+    </style>
+
+    <style name="NT" />
+    <style name="NT.TextAppearance" parent="@style/NT_TextAppearancetyle" />
+    <style name="NT.TextAppearance.PreferenceList" parent="@style/NT.TextAppearance">
+        <item name="android:textSize">@dimen/nt_title_title</item>
+        <item name="android:textColor">@color/nt_preference_primary_text_color</item>
+    </style>
+    <style name="NT.TextAppearance.List" parent="@style/NT.TextAppearance">
+        <item name="android:textSize">@dimen/nt_primary_normal</item>
+        <item name="android:textColor">@color/nt_text_primary_color</item>
+    </style>
+    <style name="NT.TextAppearance.List.Primary" parent="@style/NT.TextAppearance.List" />
+    <style name="NT.TextAppearance.List.Secondary" parent="@style/NT.TextAppearance.List">
+        <item name="android:textSize">@dimen/nt_second_normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/nt_list_text_second_color</item>
+        <item name="android:shadowColor">@color/nt_list_text_second_shadow_color</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="NT.TextAppearance.List.Secondary.Preference" parent="@style/NT.TextAppearance.List.Secondary">
+        <item name="android:textColor">@color/nt_preference_second_text_color</item>
+    </style>
+
+    <style name="NT_PreferenceHeaderPanelSinglePane">
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="NT_PreferencePanelSinglePane" parent="@*android:style/PreferencePanel">
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="NT_PreferenceHeaderListSinglePane" parent="@*android:style/PreferenceHeaderList">
+        <item name="android:paddingStart">@*android:dimen/preference_fragment_padding_side</item>
+        <item name="android:paddingEnd">@*android:dimen/preference_fragment_padding_side</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+    </style>
+
+    <style name="NT_PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
+        <item name="android:paddingStart">@*android:dimen/preference_fragment_padding_side</item>
+        <item name="android:paddingEnd">@*android:dimen/preference_fragment_padding_side</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="NT_ActionBar.CenterTitle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/nt_actionbar_bg</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:height">@dimen/nt_actionbar_height</item>
+        <item name="android:customNavigationLayout">@layout/nt_custom_action_bar_centertitle</item>
+        <item name="android:displayOptions"></item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="NT_ActionBar.Title" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/nt_actionbar_bg</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:height">@dimen/nt_actionbar_height</item>
+        <item name="android:homeAsUpIndicator">@drawable/nt_action_bar_back</item>
+        <!--<item name="android:customNavigationLayout">@layout/nt_custom_action_bar</item>
+         Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="NT_ActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+
+    </style>
+    <style name="NT_ActionBarTabTextStyle" parent="@android:style/Widget.ActionBar.TabText">
+        <item name="android:textSize">@dimen/nt_title_title</item>
+        <item name="android:textColor">@drawable/nt_actionbar_tab_text_color</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+    <style name="NT_ActionBarTabBarStyle" parent="@android:style/Widget.ActionBar.TabBar">
+        <item name="android:background">@drawable/nt_actionbar_bg</item>
+        <item name="android:showDividers">none</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerPadding">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="NT_NumberPickerStyle" parent="@*android:style/Widget.Holo.Light.NumberPicker">
+        <!-- <item name="@*android:selectionDivider">@color/nt_divider_color</item> -->
+        <item name="@*android:selectionDivider">@android:color/transparent</item>
+    </style>
+
+    <style name="NT_DatePickerStyle" parent="@*android:style/Widget.Holo.Light.DatePicker">
+        <item name="@*android:internalLayout">@layout/nt_date_picker_holo</item>
+    </style>
+
+    <style name="NT_TimePickerStyle" parent="@*android:style/Widget.Holo.Light.TimePicker">
+        <item name="@*android:internalLayout">@layout/nt_time_picker_holo</item>
+    </style>
+
+</resources>

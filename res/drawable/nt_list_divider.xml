@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:left="@dimen/nt_list_divider_startpadding" android:right="@dimen/nt_list_divider_endpadding" >
+								<shape android:shape="line">
+								    <stroke android:color="@color/nt_divider_color" />
+								    <size android:height="@dimen/nt_divider_height" />
+								</shape>
+    </item>
+</layer-list>
+<!-- <shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient
+        android:startColor="#00000000"
+ 
+        android:centerColor="#FFFFFF"
+        android:endColor="#00000000"
+        />
+    <corners
+        android:radius="4dp"
+        />
+ 
+</shape> -->

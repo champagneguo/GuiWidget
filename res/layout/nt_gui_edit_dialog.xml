@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dip"
+        android:background="@color/nt_popupwindow_bg_color"
+         android:layout_alignParentBottom="true"
+        >
+        
+         <LinearLayout
+            android:id="@+id/nt_bottom_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" 
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="@dimen/nt_list_itemtext_startpadding"
+            android:paddingRight="@dimen/nt_list_itemtext_startpadding"
+            >
+
+            <Button
+                android:id="@+id/nt_neg_button"
+                android:layout_width="fill_parent"
+                android:layout_height="80dip"
+                android:background="@drawable/nt_popup_btn_first_light"
+                android:gravity="center"
+                android:text="@string/nt_btn_cancel"
+                android:textColor="#000000"
+                android:textSize="14sp" 
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/nt_pos_button"
+                android:layout_width="fill_parent"
+                android:layout_height="80dip"
+                 android:layout_weight="1"
+                android:background="@drawable/nt_popup_btn_last_light"
+                android:gravity="center"
+                android:text="@string/nt_btn_confirm"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+       	<EditText
+            android:id="@+id/nt_edit"
+            android:layout_width="340dip"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/nt_bottom_bar"
+            android:layout_marginBottom="-3dip"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:id="@+id/nt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" 
+            android:layout_centerHorizontal="true"
+            android:text="@string/nt_edit_title"
+            android:layout_above="@id/nt_edit"
+            android:layout_marginBottom="10dip"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

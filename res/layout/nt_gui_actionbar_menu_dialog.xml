@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+>  
+ 
+	<ListView
+	    android:id="@+id/nt_list"
+	    style="@style/NT_ListViewStyle"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbarAlwaysDrawVerticalTrack="true" 
+	    android:cacheColorHint="@android:color/transparent"
+	    android:background="@color/nt_popupwindow_bg_color"
+	    android:layout_alignParentBottom="true"
+	    android:scrollbars="none"
+	/>
+
+ <include layout="@layout/nt_bottom_menubar"
+ 	   android:layout_above="@id/nt_list"
+     android:layout_width="fill_parent"
+     android:layout_height="@dimen/nt_bottom_menubar_height"
+     android:background="@color/nt_popupwindow_bg_color"
+     android:layout_alignParentBottom="false" />
+
+</RelativeLayout>
+<!-- 
+android:divider="@drawable/card_divider"
+android:visibility="invisible"
+	android:gravity="center_vertical"
+<RelativeLayout   
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center_horizontal"  
+    android:orientation="vertical"  
+    
+  >  
+  
+<LinearLayout   
+    android:id="@+id/pop_layout"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center_horizontal"  
+    android:orientation="vertical"  
+    android:layout_alignParentBottom="true"  
+     
+     >  
+  
+      
+    <Button  
+        android:id="@+id/btn_take_photo"  
+        android:layout_marginLeft="20dip"  
+        android:layout_marginRight="20dip"  
+        android:layout_marginTop="20dip"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="拍照"  
+         
+        android:textStyle="bold"  
+         />  
+  
+    <Button  
+        android:id="@+id/btn_pick_photo"  
+        android:layout_marginLeft="20dip"  
+        android:layout_marginRight="20dip"  
+        android:layout_marginTop="5dip"   
+         android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="从相册选择"  
+          
+         android:textStyle="bold"  
+         />  
+  
+    <Button  
+        android:id="@+id/btn_cancel"  
+       android:layout_marginLeft="20dip"  
+       android:layout_marginRight="20dip"  
+       android:layout_marginTop="15dip"   
+       android:layout_marginBottom="15dip"  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+       android:text="取消"  
+      
+       android:textColor="#ffffff"  
+       android:textStyle="bold"  
+         
+        />  
+</LinearLayout>  
+</RelativeLayout> 
+
+ -->
+ 
+
+    

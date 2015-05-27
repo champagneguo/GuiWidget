@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:id="@+id/nt_actionbar_multichoicemode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/editor_title_button_margin"
+    android:paddingRight="@dimen/editor_title_button_margin"
+    >
+
+    <TextView
+         android:id="@+id/nt_multichoice_cancel" 
+         android:text="@android:string/cancel" 
+         android:layout_width="wrap_content"
+         android:layout_height="26dip"
+         android:minWidth="47dip"
+         android:textColor="#000000"
+         android:gravity="center"
+         android:background="@drawable/nt_edit_mode_top_bar_button_light"
+         android:textSize="@dimen/nt_title_small"
+         android:layout_centerVertical="true"
+         android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/nt_multichoice_all_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="26dip"
+        android:minWidth="47dip"
+        android:textColor="@color/nt_action_bar_select_color"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="@dimen/nt_title_small"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nt_edit_mode_top_bar_button_light"
+        android:text="@string/nt_contacts_all_pick" />
+
+    <TextView
+          android:id="@+id/nt_multichoice_text_select"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_centerVertical="true"
+          android:gravity="center"
+          android:textSize="@dimen/nt_title_small"
+          android:textColor="#8f8f8f"
+          android:layout_centerHorizontal="true" />
+</RelativeLayout>

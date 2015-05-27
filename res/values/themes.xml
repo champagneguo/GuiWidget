@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	   <attr name="nt_attr_actionbar_title" format="reference" />
+
+    <style name="Theme.NT.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert">
+    	   <item name="android:windowTranslucentStatus">true</item>
+    	   <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+				    <item name="android:windowIsFloating">false</item>
+				    <item name="android:windowIsTranslucent">true</item>
+				    <item name="android:background">@android:color/transparent</item>
+				    <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="@*android:windowFixedWidthMajor">100%</item>
+        <item name="@*android:windowFixedWidthMinor">100%</item>
+        <item name="@*android:windowFixedHeightMajor">100%</item>
+        <item name="@*android:windowFixedHeightMinor">100%</item>
+        <item name="@android:alertDialogStyle">@style/NT_AlertDialogStyle</item>
+        <item name="@android:buttonBarButtonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="@android:borderlessButtonStyle">@style/NT_LightButtonStyle</item>
+        <item name="android:buttonStyle">@style/NT_LightButtonStyle</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowAnimationStyle">@style/NT_PopupDialogAnimationStyle</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/nt_checkbox_blue</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/nt_checkbox_blue</item>
+        <item name="@*android:switchStyle">@style/NT_ImageSwitch</item>
+        <item name="android:seekBarStyle">@style/NT_SeekBarStyle</item>
+        <item name="android:progressBarStyle">@style/NT_ProgressBarStyle</item>
+        <item name="android:progressBarStyleHorizontal">@style/NT_ProgressBarStyle</item>
+        <item name="android:textAppearance">@style/NT_TextAppearancetyle</item>
+        <item name="android:textAppearanceLarge">@style/NT_TextAppearancetyle.Large</item>
+        <item name="android:textAppearanceMedium">@style/NT_TextAppearancetyle.Medium</item>
+        <item name="android:textAppearanceSmall">@style/NT_TextAppearancetyle.Small</item>
+        <item name="android:listPreferredItemHeight">@dimen/nt_listpreferred_itemheight</item>
+        <item name="android:dropDownSpinnerStyle">@style/NT_SpinnerDropDown</item>
+        <item name="android:listViewStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:listViewWhiteStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:absListViewStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:editTextBackground">@drawable/nt_edit_text_bg_light</item>
+        <item name="@*android:numberPickerStyle">@style/NT_NumberPickerStyle</item>
+        <item name="@*android:timePickerStyle">@style/NT_TimePickerStyle</item>
+        <item name="@*android:datePickerStyle">@style/NT_DatePickerStyle</item>
+    </style>
+
+    <style name="Theme.NT.Dialog" parent="@*android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="@*android:windowFixedWidthMajor">100%</item>
+        <item name="@*android:windowFixedWidthMinor">100%</item>
+        <item name="@*android:windowFixedHeightMajor">100%</item>
+        <item name="@*android:windowFixedHeightMinor">100%</item>
+        <item name="@android:borderlessButtonStyle">@style/NT_LightButtonStyle</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:textAppearance">@style/NT_TextAppearancetyle</item>
+        <item name="android:textAppearanceLarge">@style/NT_TextAppearancetyle.Large</item>
+        <item name="android:textAppearanceMedium">@style/NT_TextAppearancetyle.Medium</item>
+        <item name="android:textAppearanceSmall">@style/NT_TextAppearancetyle.Small</item>
+        <item name="android:listPreferredItemHeight">@dimen/nt_listpreferred_itemheight</item>
+        <item name="android:dropDownSpinnerStyle">@style/NT_SpinnerDropDown</item>
+        <item name="android:listViewStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:listViewWhiteStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:absListViewStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:editTextBackground">@drawable/nt_edit_text_bg_light</item>
+        <item name="@android:alertDialogStyle">@style/NT_AlertDialogStyle</item>
+        <item name="@*android:numberPickerStyle">@style/NT_NumberPickerStyle</item>
+        <item name="@*android:timePickerStyle">@style/NT_TimePickerStyle</item>
+        <item name="@*android:datePickerStyle">@style/NT_DatePickerStyle</item>
+    </style>
+
+    <style name="Theme.NT.Settings" parent="@android:style/Theme.Holo.Light">
+        <item name="android:fitsSystemWindows">true</item>
+    	   <item name="android:windowBackground">@color/nt_window_bg_color</item>
+        <item name="@*android:preferenceHeaderPanelStyle">@style/NT_PreferenceHeaderPanelSinglePane</item>
+        <item name="@*android:preferencePanelStyle">@style/NT_PreferencePanelSinglePane</item>
+        <item name="@*android:preferenceListStyle">@style/NT_PreferenceHeaderListSinglePane</item>
+        <item name="@*android:preferenceFragmentListStyle">@style/NT_PreferenceFragmentListSinglePane</item>
+        <item name="@*android:preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side</item>
+        <item name="android:actionBarStyle">@style/NT_ActionBar.Title</item>
+        <item name="android:homeAsUpIndicator">@drawable/nt_action_bar_back</item>
+        <item name="android:listSeparatorTextViewStyle">@style/NT_ListSeparatorTextViewStyle</item>
+        <item name="@*android:preferenceStyle">@style/NT_PreferenceScreenStyle</item>
+        <item name="@*android:preferenceScreenStyle">@style/NT_PreferenceScreenStyle</item>
+        <item name="@*android:preferenceCategoryStyle">@*android:style/Preference.Category</item>
+        <item name="@*android:dialogPreferenceStyle">@style/NT_DialogPreferenceStyle</item>
+        <item name="@android:alertDialogStyle">@style/NT_AlertDialogStyle</item>
+        <item name="@*android:checkBoxPreferenceStyle">@style/NT_CheckBoxPreferenceScreenStyle</item>
+        <!-- <item name="android:scrollbarSize">0dp</item> -->
+        <item name="android:listChoiceIndicatorSingle">@drawable/nt_checkbox_blue</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/nt_checkbox_blue</item>
+        <item name="@*android:switchStyle">@style/NT_ImageSwitch</item>
+        <item name="@*android:alertDialogTheme">@style/Theme.NT.Dialog.Alert</item>
+        <item name="@*android:dialogTheme">@style/Theme.NT.Dialog</item>
+        <item name="@android:borderlessButtonStyle">@style/NT_LightButtonStyle</item>
+        <item name="@android:buttonStyle">@style/NT_LightButtonStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:popupWindowStyle">@style/NT_PopupWindowStyle</item>
+        <item name="android:windowAnimationStyle">@style/NT_ActivityAnimationStyle</item>
+        <item name="android:seekBarStyle">@style/NT_SeekBarStyle</item>
+        <item name="android:progressBarStyle">@style/NT_ProgressBarStyle</item>
+        <item name="android:progressBarStyleHorizontal">@style/NT_ProgressBarStyle</item>
+        <item name="android:textAppearance">@style/NT_TextAppearancetyle</item>
+        <item name="android:textAppearanceLarge">@style/NT_TextAppearancetyle.Large</item>
+        <item name="android:textAppearanceMedium">@style/NT_TextAppearancetyle.Medium</item>
+        <item name="android:textAppearanceSmall">@style/NT_TextAppearancetyle.Small</item>
+        <item name="android:listPreferredItemHeight">@dimen/nt_listpreferred_itemheight</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nt_listpreferred_itemheight</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/nt_listpreferred_itemheight</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/nt_list_itemtext_startpadding</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/nt_list_itemtext_startpadding</item>
+        <item name="android:dropDownSpinnerStyle">@style/NT_SpinnerDropDown</item>
+        <item name="android:listViewStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:listViewWhiteStyle">@style/NT_ListViewSpringStyle</item>
+        <item name="android:absListViewStyle">@style/NT_ListViewSpringStyle</item>
+        <!-- <item name="@*android:listDivider">@drawable/nt_list_divider</item> -->
+        <item name="android:editTextBackground">@drawable/nt_edit_text_bg_light</item>
+        <item name="@*android:numberPickerStyle">@style/NT_NumberPickerStyle</item>
+        <item name="@*android:timePickerStyle">@style/NT_TimePickerStyle</item>
+        <item name="@*android:datePickerStyle">@style/NT_DatePickerStyle</item>
+        
+    </style>
+    <style name="Theme.NT.MainLauncher" parent="@style/Theme.NT.Settings">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

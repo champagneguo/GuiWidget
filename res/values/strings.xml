@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nt_gui_app_name">FragmentTranslate</string>
+    <string name="nt_gui_hello_world">Hello world!</string>
+    <string name="nt_gui_action_settings">Settings</string>
+    <string name="nt_gui_action_show_list">Show list</string>
+    
+    <string name="nt_gui_item1">小米云服务</string>
+    <string name="nt_gui_item2">设置</string>
+    <string name="nt_widget_more">More</string>
+    
+    <string name="nt_btn_cancel">"Cancel"</string>
+    <string name="nt_btn_confirm">"OK"</string>
+    <string name="nt_edit_title">"New Contact"</string>
+    
+    <string name="nt_contacts_all_pick">"Select all"</string>		 
+    <string name="nt_contacts_all_not_pick">"Deselect all"</string>
+		 
+    <string name="nt_contacts_pick">"Select"</string>
+    
+    <plurals name="nt_contact_search_hint">
+		<item quantity="one">%d Contact</item>
+		<item quantity="other">%d Contacts</item>
+	</plurals>
+
+    <string name="nt_contact_new_text">"New Contact"</string>
+    <string name="nt_contact_website">"Website"</string>
+    
+</resources>
